@@ -1,0 +1,46 @@
+.carousel-wrapper{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+    border: solid 2px #bebe98;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.carousel-slide>img{
+    width: 100%;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0 20px;
+    height: 65px;
+    font-size: 4rem;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(256,256,256,0.5);
+}
+.prev{
+    left: 0;
+    border-radius: 0 40px 40px 0;
+}
+.next{
+    right: 0;
+    border-radius: 40px 0 0 40px;
+}
+.dotes{
+    display: flex;
+    position: absolute;
+    color: rgba(256,256,256,0.5);
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.dotes>i{
+    margin: 0 3px;
+}
